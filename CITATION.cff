@@ -7,7 +7,7 @@ authors:
     orcid: https://orcid.org/0009-0002-5206-66531 # optional
     website: https://github.com/dh512351 # optional
     affiliation: University at Albany (State University of New York) # optional
-  - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
-    website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
-title: "Cookbook Template"
-abstract: "A sample cookbook description."
+  - name: "Project Contributor" # use the 'name' field to acknowledge organizations
+    website: "https://github.com/dh512351
+title: "Final Project"
+abstract: "ATM 433 Final Project Description."

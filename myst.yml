@@ -1,10 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 extends:
-  - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
+  - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml #not sure whether I should change this or not, unsure what this leads to exactly
 project:
-  title: Prototype Project Repo
-  github: https://github.com/projectpythia/cookbook-template
+  title: The impacts of Hurricane Ida on New York City
+  github: https://github.com/projectpythia/cookbook-template # Will only change once I have a confirmed repository for this project
   authors:
     - name: Daniel Harkin
   copyright: '2025'
@@ -13,12 +13,12 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: ERA5 Analysis
       children:
-        - file: notebooks/notebook-template.ipynb
-    - title: Xarray Notebook
+        - file: notebooks/ERA5_Analysis.ipynb
+    - title: HRRR vs. Stage IV Analysis
       children: 
-        - file: notebooks/xarray.ipynb
+        - file: notebooks/HRRR_Stage4.ipynb
 
   jupyter:
       binder:

@@ -1,39 +1,39 @@
 # Daniel's Prototype Cookbook
 
-<img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnails/HRRR_24hr_09012021.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Cookbook covers Utilizing ERA5 Reanalysis, as well as comparing HRRR modeled QPF to Stage IV QPE, in this case for Hurricane Ida.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook shows that a combination of Reanalysis, Model QPF, and observed QPE can be used to gain a better context for Hurricane Ida's impac ton the New York City area. Utilizing these meteorological analysis tools will porvide me more experience pulling from remote datasets, as well as learning how to regrid observations to match model data for comparison. 
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+Daniel Harkin - https://github.com/dh512351 
 
-### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
+### Contributors 
+
+Ariel Fuller - 
+Kimberly Riek - 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is designed with two sections: An ERA5 Analysis of the event, and a comparison of HRRR model data to the observed precipitation
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 ( ERA5 Analysis )
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+A Reanalysis of Hurricane Ida as it traveled near New York City, including upper-level forcing, surface winds, and precipitation is shown for the 24 hours surrounding the event. 
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 ( HRRR vs. Stage IV Analysis )
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Using a 24 hour event window, all HRRR model QPF forecasts covering the event period are compared to Stage IV QPE for the same 24 hour period, in order to show how well predicted the strong rainfall over New York City was. 
 
 ## Running the Notebooks
 

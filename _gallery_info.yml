@@ -1,6 +1,8 @@
-thumbnail: thumbnail.png
+thumbnail: HRRR_24hr_09012021.png
 tags:
   domains:
-    - sampledomain
+    - Northeastern US
   packages:
-    - samplepackage
+    - Pandas
+    - Cartopy
+    - Matplotlib
